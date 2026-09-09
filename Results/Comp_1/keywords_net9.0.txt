@@ -1,0 +1,17 @@
+Рантайм: 9.0.19
+Система: Microsoft Windows 10.0.19045, X64
+
+Тип переменной без вызова GetType
+
+  int       __reftype даёт Int32
+  string    __reftype даёт String
+  DateTime  __reftype даёт DateTime
+
+Разница с GetType
+
+  число до записи: 42
+  после __refvalue: 100
+  TypedReference.ToObject: Секрет
+
+GetType работает с объектом и упаковывает значимый тип.
+__reftype работает с переменной и упаковки не делает.
